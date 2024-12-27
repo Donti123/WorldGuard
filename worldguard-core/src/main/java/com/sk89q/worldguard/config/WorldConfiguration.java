@@ -101,7 +101,6 @@ public abstract class WorldConfiguration {
     public boolean blockEnderDragonPortalCreation;
     public boolean blockFireballExplosions;
     public boolean blockFireballBlockDamage;
-    public boolean blockWindChargeExplosions;
     public boolean blockOtherExplosions;
     public boolean blockEntityPaintingDestroy;
     public boolean blockEntityItemFrameDestroy;
@@ -140,8 +139,6 @@ public abstract class WorldConfiguration {
     public boolean disablePlayerCropTrampling;
     public boolean disableCreatureTurtleEggTrampling;
     public boolean disablePlayerTurtleEggTrampling;
-    public boolean disableCreatureSnifferEggTrampling;
-    public boolean disablePlayerSnifferEggTrampling;
     public boolean preventLightningFire;
     public Set<String> disallowedLightningBlocks;
     public boolean disableThunder;
@@ -167,7 +164,6 @@ public abstract class WorldConfiguration {
     public boolean disableEndermanGriefing;
     public boolean disableSnowmanTrails;
     public boolean disableSoilDehydration;
-    public boolean disableSoilMoistureChange;
     public boolean disableCoralBlockFade;
     public boolean disableCopperBlockFade;
     public Set<String> allowedSnowFallOver;
